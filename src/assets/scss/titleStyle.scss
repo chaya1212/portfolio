@@ -1,0 +1,68 @@
+.banner {
+    position: relative;
+    width: auto;
+}
+
+.mask_img {
+    width: 20rem;
+    height: 20rem;
+    transition: 2s ease-in-out;
+    overflow: hidden;
+
+    &.radius_RB {
+        border-radius: 7rem 7rem 0.5rem 7rem;
+    }
+
+    &.radius_LB {
+        border-radius: 7rem 7rem 7rem 0.5rem;
+    }
+
+    &.radius_title {
+        border-radius: 0.5rem 7rem 7rem 7rem;
+    }
+
+    &::before {
+        content: '';
+        width: 20rem;
+        height: 20rem;
+        // border-radius: 7rem 7rem 0.5rem 7rem;
+        background-color: #22222A;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.3s;
+        opacity: .5;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+        }
+    }
+
+    &.work01 {
+        background-size:contain;
+        background-image: url("~@/assets/image/titleImg/work01_title.png");
+    }
+
+    &.work02 {
+        background-image: url("~@/assets/image/titleImg/work02_title.png");
+    }
+
+    &.redesign01 {
+        background-size:contain;
+        background-image: url("~@/assets/image/titleImg/redesign_title.png");
+    }
+
+    &.word02_card01{
+        background-size:contain;
+        background-image: url("~@/assets/image/work02/card-01.png");
+    }
+
+    &.word02_card02{
+        background-size:contain;
+        background-image: url("~@/assets/image/work02/card-02.png");
+    }
+
+    
+}

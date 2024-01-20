@@ -1,0 +1,43 @@
+.section_title {
+  max-height: 100%;
+  height: 70vh;
+}
+
+.wrap_ArticleTitle{
+  position: relative;
+  background-color: $neon-green;
+  font-weight: 600;
+  width: 100%;
+  height: 70%;
+
+  &::before{
+    content: '';
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    width: 0;
+  height: 0;
+  border: 25px solid;
+  border-color: #1EE532  transparent transparent transparent;
+  }
+
+  .mask_img{
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+  }
+}
+
+.section_main, .wrap_ArticleTitle{
+  .mask_img{
+    &::before{
+      display: none;
+    }
+  }
+}
+
+.section_main {
+  .main_title{
+    font-weight: 600;
+  }
+}
