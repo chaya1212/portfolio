@@ -15,7 +15,7 @@
             <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">123</a>
+            <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Grapic</a>
           </li>
         </ul>
       </div>
