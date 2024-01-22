@@ -15,7 +15,7 @@
             <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Grapic</a>
+            <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Graphic</a>
           </li>
         </ul>
       </div>
@@ -33,9 +33,10 @@
 
   <sectiom id="about">
     <div class="card_wrap bg_neon text-start">
-      <sapn class="subtitle text-dark font_syncopate">Abonut me</sapn>
-      <p class="text text-dark w-50">Over the past 4 years, I've been dedicated to UX research. To creating a beautiful
-        appearance, I also design products that resonate with users' real emotions and psychology."</p>
+      <sapn class="subtitle text-dark font_syncopate">About me</sapn>
+      <p class="text text-dark w-50">擅長遊戲化體驗的UIUX設計師，能活用Vue3/SCSS/bootstrap切版，已完成多項產品的重構與設計。
+
+並透過遊戲化導入會員系統，提升網站會員的轉換率與留存率。</p>
     </div>
   </sectiom>
   <section id="skill" class="skill_section">
@@ -148,10 +149,10 @@ export default {
   data() {
     return {
       images: [
-        require('@/assets/image/titleImg/work01_title.png'),
-        require('@/assets/image/titleImg/work02_title.png'),
-        require('@/assets/image/titleImg/work02_title.png'),
-        require('@/assets/image/titleImg/work02_title.png'),
+        require('@/assets/image/graphic/page02.png'),
+        require('@/assets/image/graphic/page-01.png'),
+        // require('@/assets/image/titleImg/work02_title.png'),
+        // require('@/assets/image/graphic/work02_title.png'),
         // 添加更多圖片路徑
       ],
       enlargedImage: null

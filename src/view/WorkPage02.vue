@@ -41,7 +41,7 @@
             <div class="col-md-3 col-sm-6 banner px-0">
                 <div class="mask_img radius_RB word02_card01"></div>
             </div>
-            <div class="col-8 text-start px-5">
+            <div class="col-8 text-start px-md-5">
                 <div class="card-body">
                     <p class=" text-neonGreen item-title" style="font-weight: 600;">
                         WATCHOS
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
-            <div class="col-8 text-start px-5">
+            <div class="col-8 text-start px-md-5">
                 <div class="card-body">
                     <p class=" text-neonGreen item-title" style="font-weight: 600;">
                         HUD
@@ -77,7 +77,7 @@
             <div class="col-md-3 col-sm-6 banner px-0">
                 <div class="mask_img radius_RB"></div>
             </div>
-            <div class="col-8 text-start px-5">
+            <div class="col-8 text-start px-md-5">
                 <div class="card-body">
                     <p class=" text-neonGreen item-title" style="font-weight: 600;">
                         第一秒
@@ -91,7 +91,7 @@
             </div>
         </div>
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
-            <div class="col-8 text-start px-5">
+            <div class="col-8 text-start px-md-5">
                 <div class="card-body">
                     <p class=" text-neonGreen item-title" style="font-weight: 600;">
                         第二秒
@@ -112,7 +112,7 @@
             <div class="col-md-3 col-sm-6 banner px-0">
                 <div class="mask_img radius_RB"></div>
             </div>
-            <div class="col-8 text-start px-5">
+            <div class="col-8 text-start px-md-5">
                 <div class="card-body">
                     <p class=" text-neonGreen item-title" style="font-weight: 600;">
                         第三秒

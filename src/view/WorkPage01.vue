@@ -60,7 +60,7 @@
     </div>
     <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
       <div class="col-md-3 col-sm-6 banner px-0">
-        <div class="mask_img radius_RB"></div>
+        <div class="mask_img radius_RB word01_card01"></div>
       </div>
       <div class="col-8 text-start px-5">
         <div class="card-body">
@@ -90,12 +90,12 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 banner px-0">
-        <div class="mask_img radius_LB"></div>
+        <div class="mask_img radius_LB word01_card02"></div>
       </div>
     </div>
     <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
       <div class="col-md-3 col-sm-6 banner px-0">
-        <div class="mask_img radius_RB"></div>
+        <div class="mask_img radius_RB word01_card03"></div>
       </div>
       <div class="col-8 text-start px-5">
         <div class="card-body">
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 banner px-0">
-        <div class="mask_img radius_LB"></div>
+        <div class="mask_img radius_LB word01_card04"></div>
       </div>
     </div>
 
@@ -138,15 +138,15 @@
     <div class="container">
       <div class="pt-5 m-3 row justify-content-around block">
         <div class="p-3 my-3 col-5">
-          <img class="col-img" src="@/assets/image/work01/icon_discover.svg">
+          <img class="col-img img_modal" src="@/assets/image/work01/icon_Model01.png">
           <p class="item-title text-neonGreen  mb-0">實現模型</p>
-          <p class="item-title text-neonGreen mb-0">（Discoverability）</p>
+          <p class="item-title text-neonGreen mb-0">(Implementation Model)</p>
 
           <span class="text">直接反映系統的底層細節，它不關心系統的用戶，通常只是取悅他的創造者。</span>
         </div>
 
         <div class="p-3 my-3 col-5">
-          <img class="col-img" src="@/assets/image/work01/icon_under.svg">
+          <img class="col-img img_modal" src="@/assets/image/work01/icon_Model02.png">
           <p class="item-title text-neonGreen mb-0">心理模型</p>
           <p class="item-title text-neonGreen mb-0">（Mental Model)</p>
 

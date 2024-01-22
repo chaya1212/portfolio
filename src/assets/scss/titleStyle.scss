@@ -11,27 +11,37 @@
 
     &.radius_RB {
         border-radius: 7rem 7rem 0.5rem 7rem;
+
+        &::before {
+            border-radius: 7rem 7rem 0.5rem 7rem;
+        }
     }
 
     &.radius_LB {
         border-radius: 7rem 7rem 7rem 0.5rem;
+
+        &::before {
+            border-radius: 7rem 7rem 7rem 0.5rem;
+        }
+    }
+
+    &.radius_LB, &.radius_RB{
+        &::before {
+            content: '';
+            width: 20rem;
+            height: 20rem;
+            background-color: #22222A;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 0.3s;
+            opacity: .5;
+        }
+        
     }
 
     &.radius_title {
         border-radius: 0.5rem 7rem 7rem 7rem;
-    }
-
-    &::before {
-        content: '';
-        width: 20rem;
-        height: 20rem;
-        // border-radius: 7rem 7rem 0.5rem 7rem;
-        background-color: #22222A;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: 0.3s;
-        opacity: .5;
     }
 
     &:hover {
@@ -41,7 +51,7 @@
     }
 
     &.work01 {
-        background-size:contain;
+        background-size: contain;
         background-image: url("~@/assets/image/titleImg/work01_title.png");
     }
 
@@ -50,19 +60,39 @@
     }
 
     &.redesign01 {
-        background-size:contain;
+        background-size: contain;
         background-image: url("~@/assets/image/titleImg/redesign_title.png");
     }
 
-    &.word02_card01{
-        background-size:contain;
+    &.word01_card01 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work01/card-01.png");
+    }
+
+    &.word01_card02 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work01/card-02.png");
+    }
+
+    &.word01_card03 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work01/card-03.png");
+    }
+
+    &.word01_card04 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work01/card-04.png");
+    }
+
+    &.word02_card01 {
+        background-size: contain;
         background-image: url("~@/assets/image/work02/card-01.png");
     }
 
-    &.word02_card02{
-        background-size:contain;
+    &.word02_card02 {
+        background-size: contain;
         background-image: url("~@/assets/image/work02/card-02.png");
     }
 
-    
+
 }
