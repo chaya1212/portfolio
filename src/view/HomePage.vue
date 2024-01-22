@@ -1,9 +1,32 @@
 <template>
   <section id="home" class="home pt-0">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-3 text-light" href="#">2024 PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light mx-2" @click="scrollToSection('about')" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Graphic</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand ps-3 text-light" href="#">2024 PORTFOLIO</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -19,7 +42,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
     <div class="img-center position-relative w-100 h-100">
       <span class="home-title">Hi I’m Chaya</span>
       <img class="my_img" src="@/assets/image/me.png">
@@ -31,12 +54,12 @@
     </div>
   </section>
 
-  <sectiom id="about">
+  <sectiom id="about" class="about">
     <div class="card_wrap bg_neon text-start">
       <sapn class="subtitle text-dark font_syncopate">About me</sapn>
-      <p class="text text-dark w-50">擅長遊戲化體驗的UIUX設計師，能活用Vue3/SCSS/bootstrap切版，已完成多項產品的重構與設計。
+      <p class="text text-dark text_item">擅長遊戲化體驗的UIUX設計師，能活用Vue3/SCSS/bootstrap切版，已完成多項產品的重構與設計。
 
-並透過遊戲化導入會員系統，提升網站會員的轉換率與留存率。</p>
+        並透過遊戲化導入會員系統，提升網站會員的轉換率與留存率。</p>
     </div>
   </sectiom>
   <section id="skill" class="skill_section">
@@ -70,7 +93,7 @@
           <div class="col-md-3 col-sm-6 banner px-0">
             <div class="mask_img radius_RB work01"></div>
           </div>
-          <div class="col-lg-6 col-md-4 col-sm-6 text-start px-5">
+          <div class="col-sm-12 col-md-6 text-start px-md-5 py-3">
             <div class="card-body d-flex">
               <h5 class="badge tag_UX text-dark">UX research</h5>
               <p class="mb-0 text-neonGreen item-title" style="font-weight: 600;">
@@ -83,7 +106,7 @@
       </router-link>
       <router-link :to="{ name: 'HudPage' }">
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
-          <div class="col-lg-6 col-md-4 col-sm-6 text-start px-5">
+          <div class="col-sm-12 col-md-6 text-start px-md-5 py-3">
             <div class="card-body d-flex">
               <h5 class="badge tag_UX text-dark">UX research</h5>
               <p class="mb-0 text-neonGreen item-title" style="font-weight: 600;">
@@ -102,7 +125,7 @@
           <div class="col-md-3 col-sm-6 banner px-0">
             <div class="mask_img radius_RB redesign01"></div>
           </div>
-          <div class="col-lg-6 col-md-4 col-sm-6 text-start px-5">
+          <div class="col-sm-12 col-md-6 text-start px-md-5 py-3">
             <div class="card-body d-flex">
               <h5 class="badge tag_UI text-dark">UI design</h5>
               <p class="mb-0 text-neonGreen item-title" style="font-weight: 600;">
@@ -110,7 +133,7 @@
               </p>
               <span class="my-1 text text-light">REDESIGN 資料層級研究
 
-</span>
+              </span>
             </div>
           </div>
         </div>

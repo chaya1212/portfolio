@@ -25,6 +25,12 @@
     position: absolute;
     right: 7rem;
     top: 5rem;
+
+    @include media-breakpoint-down(lg) {
+      width: 15rem;
+      height: 15rem;
+
+    }
   }
 }
 
