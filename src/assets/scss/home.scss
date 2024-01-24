@@ -7,6 +7,10 @@
         font-size: 5.3331rem;
         font-family: 'syncopate';
         font-weight: 700;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 4rem;
+        }
     }
 
     .my_img {
@@ -88,9 +92,17 @@ section {
 
 }
 
+.card_wrap {
+    padding: 1.5rem 3rem;
+}
+
 .work_section {
-    .card_wrap {
-        padding: 1.5rem 3rem;
+    
+
+    .flex-reserveBlock{
+        @include media-breakpoint-down(md) {
+            flex-direction: column-reverse !important;
+        }
     }
 
     .work_wrap {

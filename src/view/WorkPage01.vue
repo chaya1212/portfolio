@@ -37,7 +37,7 @@
     </div>
     <div class="container">
       <div class="pt-5 m-3 row justify-content-around block">
-        <div class="p-3 my-3 col-5">
+        <div class="p-3 my-3 col-md-5">
           <img class="col-img" src="@/assets/image/work01/icon_discover.svg">
           <p class="item-title text-neonGreen  mb-0">可視性</p>
           <p class="item-title text-neonGreen mb-0">（Discoverability）</p>
@@ -45,7 +45,7 @@
           <span class="text">設計的產品能不能讓使用者明白操作的合理性以及其位置、如何操作。</span>
         </div>
 
-        <div class="p-3 my-3 col-5">
+        <div class="p-3 my-3 col-md-5">
           <img class="col-img" src="@/assets/image/work01/icon_under.svg">
           <p class="item-title text-neonGreen mb-0">易通性</p>
           <p class="item-title text-neonGreen mb-0">（Under-standing)</p>
@@ -62,7 +62,7 @@
       <div class="col-md-3 col-sm-6 banner px-0">
         <div class="mask_img radius_RB word01_card01"></div>
       </div>
-      <div class="col-8 text-start px-5">
+      <div class="col-8 text-start px-md-5">
         <div class="card-body">
           <p class=" text-neonGreen item-title" style="font-weight: 600;">
             示能
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
-      <div class="col-8 text-start px-5">
+      <div class="col-8 text-start px-md-5">
         <div class="card-body">
           <p class=" text-neonGreen item-title" style="font-weight: 600;">
             意符
@@ -97,7 +97,7 @@
       <div class="col-md-3 col-sm-6 banner px-0">
         <div class="mask_img radius_RB word01_card03"></div>
       </div>
-      <div class="col-8 text-start px-5">
+      <div class="col-8 text-start px-md-5">
         <div class="card-body">
           <p class=" text-neonGreen item-title" style="font-weight: 600;">
             映射
@@ -111,7 +111,7 @@
       </div>
     </div>
     <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
-      <div class="col-8 text-start px-5">
+      <div class="col-8 text-start px-md-5">
         <div class="card-body">
           <p class=" text-neonGreen item-title" style="font-weight: 600;">
             反饋
@@ -137,7 +137,7 @@
     </div>
     <div class="container">
       <div class="pt-5 m-3 row justify-content-around block">
-        <div class="p-3 my-3 col-5">
+        <div class="p-3 my-3 col-suto col-md-5">
           <img class="col-img img_modal" src="@/assets/image/work01/icon_Model01.png">
           <p class="item-title text-neonGreen  mb-0">實現模型</p>
           <p class="item-title text-neonGreen mb-0">(Implementation Model)</p>
@@ -145,7 +145,7 @@
           <span class="text">直接反映系統的底層細節，它不關心系統的用戶，通常只是取悅他的創造者。</span>
         </div>
 
-        <div class="p-3 my-3 col-5">
+        <div class="p-3 my-3 col-suto col-md-5">
           <img class="col-img img_modal" src="@/assets/image/work01/icon_Model02.png">
           <p class="item-title text-neonGreen mb-0">心理模型</p>
           <p class="item-title text-neonGreen mb-0">（Mental Model)</p>

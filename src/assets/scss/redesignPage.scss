@@ -1,4 +1,16 @@
 .question_wrap{
+    @include media-breakpoint-down(md) {
+        .row{
+            flex-direction: column;
+            align-items: center;
+
+            .col{
+                margin: .5rem 0;
+                max-width: 80vw;
+            }
+        }
+      }
+
     .info_item{
         border-radius: .5rem;
         border: 2px solid $neon-green;
@@ -7,6 +19,13 @@
 }
 
 .situation_wrap{
+    @include media-breakpoint-down(md) {
+        .row{
+            flex-direction: column;
+            align-items: center;
+        }
+      }
+
     .col-img{
         width: 100%;
         object-fit: cover;

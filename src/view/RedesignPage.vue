@@ -90,10 +90,10 @@
         </div>
         <div class="situation_wrap container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-8 col-md-6">
                     <img class="col-img"  src="@/assets/image/animal/index_before.png">
                 </div>
-                <div class="col-5 text-start">
+                <div class="col-sm-8 col-md-6 text-start">
                     <div class="item-title text_orange text_bold">資訊重點與使用者期待不符</div>
                     <span>從使用者的旅途來看，最期望看到的是圖片以及可否領養。</span>
                     <div>
@@ -120,10 +120,10 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-6">
+                <div class="col-sm-8 col-md-6">
                     <img class="col-img"  src="@/assets/image/animal/info_before.png">
                 </div>
-                <div class="col-5 text-start">
+                <div class="col-sm-8 col-md-6 text-start">
                     <div class="item-title text_orange text_bold">畫面沒有重點</div>
                     <span>所有資訊內，應該是重點的資訊被混夾在所有的資訊內。</span>
                     <div>
@@ -160,10 +160,10 @@
         </div>
         <div class="situation_wrap container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-8 col-md-6">
                     <img class="col-img"  src="@/assets/image/animal/index_after.png">
                 </div>
-                <div class="col-5 text-start">
+                <div class="col-sm-8 col-md-6 text-start">
                     <div class="item-title text_orange text_bold">簡化重點</div>
                     <span>使用者會在這層進行寵物的外觀篩選，這時候避免過多資訊影響閱讀（且也不會被閱讀），適當地在內曾保留資訊，讓使用者在頁面互動。</span>
                     <div>
@@ -190,10 +190,10 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-6">
+                <div class="col-sm-8 col-md-6">
                     <img class="col-img"  src="@/assets/image/animal/info_after.png">
                 </div>
-                <div class="col-5 text-start">
+                <div class="col-sm-8 col-md-6 text-start">
                     <div class="item-title text_orange text_bold">資訊層級歸納</div>
                     <span>歸納必須資訊，做整理與分層，相較於純文字呈現資訊，可以更快加速使用者去理解。</span>
                     <div>

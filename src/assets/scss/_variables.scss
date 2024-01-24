@@ -27,15 +27,15 @@ $greem: #00C2B6;
 
 @include media-breakpoint-down(sm) {
     .subtitle {
-        font-size: 2.5rem;
-    }
-
-    .item-title {
         font-size: 2rem;
     }
 
+    .item-title {
+        font-size: 1.7rem;
+    }
+
     .col-text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .text {

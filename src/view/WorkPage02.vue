@@ -75,7 +75,7 @@
         </div>
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
             <div class="col-md-3 col-sm-6 banner px-0">
-                <div class="mask_img radius_RB"></div>
+                <div class="mask_img radius_RB word02_card03"></div>
             </div>
             <div class="col-8 text-start px-md-5">
                 <div class="card-body">
@@ -105,12 +105,12 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 banner px-0">
-                <div class="mask_img radius_LB"></div>
+                <div class="mask_img radius_LB word02_card04"></div>
             </div>
         </div>
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
             <div class="col-md-3 col-sm-6 banner px-0">
-                <div class="mask_img radius_RB"></div>
+                <div class="mask_img radius_RB word02_card05"></div>
             </div>
             <div class="col-8 text-start px-md-5">
                 <div class="card-body">

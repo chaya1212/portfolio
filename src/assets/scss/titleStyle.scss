@@ -62,6 +62,11 @@
 
     &.radius_title {
         border-radius: 0.5rem 7rem 7rem 7rem;
+        @include media-breakpoint-down(md) {
+            border-radius:  0.5rem  3rem 3rem 3rem ;
+            right:1rem;
+            top:12rem;
+          }
     }
 
     &:hover {
@@ -114,5 +119,18 @@
         background-image: url("~@/assets/image/work02/card-02.png");
     }
 
+    &.word02_card03 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work02/card-03.png");
+    }
 
+    &.word02_card04 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work02/card-04.png");
+    }
+
+    &.word02_card05 {
+        background-size: contain;
+        background-image: url("~@/assets/image/work02/card-05.png");
+    }
 }
