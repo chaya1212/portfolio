@@ -23,34 +23,19 @@
       </div>
     </nav>
 
-    <!-- <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand ps-3 text-light" href="#">2024 PORTFOLIO</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link text-light mx-2" @click="scrollToSection('about')" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Graphic</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
     <div class="img-center position-relative w-100 h-100">
       <span class="home-title">Hi I’m Chaya</span>
       <img class="my_img" src="@/assets/image/me.png">
-      <div class="circle-group">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+      <div class="ellipse_item">
+        <div class="ellipse">
+          <div class="circle"></div>
+        </div>
+        <div class="ellipse"></div>
+        <div class="ellipse">
+        </div>
       </div>
+      <img class="star_yellow position-absolute" src="@/assets/image/star_1.svg">
+      <img class="star_green position-absolute" src="@/assets/image/star_2.svg">
     </div>
   </section>
 
@@ -223,4 +208,5 @@ export default {
   height: 100%;
   object-fit: contain;
 }
+
 </style>
