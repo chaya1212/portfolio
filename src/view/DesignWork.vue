@@ -34,6 +34,7 @@
                     <img class="img" src="@/assets/image/titleImg/work02_title.png">
                 </div>
             </div>
+        
         </div>
     </section>
 </template>

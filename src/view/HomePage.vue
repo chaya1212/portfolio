@@ -159,8 +159,8 @@ export default {
       images: [
         require('@/assets/image/graphic/page02.png'),
         require('@/assets/image/graphic/page-01.png'),
-        // require('@/assets/image/titleImg/work02_title.png'),
-        // require('@/assets/image/graphic/work02_title.png'),
+        require('@/assets/image/graphic/page-03.png'),
+        require('@/assets/image/graphic/page-04.png'),
         // 添加更多圖片路徑
       ],
       enlargedImage: null
