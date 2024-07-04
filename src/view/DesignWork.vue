@@ -1,7 +1,8 @@
 <template>
     <section class="section_title">
         <div class="title_right">
-            <img class="title_img" src="@/assets/image/titleImg/work01_title.png">
+            <img class=
+            "title_img" src="@/assets/image/titleImg/work01_title.png">
         </div>
         <div class="title-content">
             <p class="title text">DM, Banner Graphic Design</p>

@@ -13,11 +13,15 @@
               <a class="nav-link text-light mx-2" @click="scrollToSection('about')" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">Work</a>
+              <a class="nav-link text-light mx-2" @click="scrollToSection('work')" href="#">DesignWork</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light mx-2" @click="scrollToSection('graphic')" href="#">Graphic</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-light mx-2" @click="scrollToSection('research')" href="#">Research</a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -70,9 +74,50 @@
     </div>
   </section>
 
-  <section id="work" class="work_section ">
+  <section id="work" class="my_section web_section">
     <div class="text-start card_wrap">
-      <sapn class="subtitle text-lightGreen font_syncopate">Work</sapn>
+      <sapn class="subtitle text-lightGreen font_syncopate">DesignWork</sapn>
+      <div class="row">
+      <div class="web_wrap col-6">
+        <a href="https://source-good-creator-studio-com-9866d448cab1bd109f7cf457ce4a2a58.gitlab.io/" target="_blank">
+          <div class="green_img d-flex">
+            <img class="img" src="@/assets/image/web/green_mockup.png">
+            <span>綠果方洲_官網建置</span>
+          </div>
+
+        </a>
+      </div>
+
+      <div class="web_wrap col-6">
+        <div class="green_img d-flex">
+          <img class="img" src="@/assets/image/web/green_mockup.png">
+          <span>綠果方洲_官網建置</span>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+    
+  </section>
+
+
+  <section id="graphic" class="my_section graphic_section">
+    <div class="text-start card_wrap">
+      <sapn class="subtitle text-lightGreen font_syncopate">Graphic</sapn>
+      <div class="container aos-init aos-animate" data-aos="zoom-in">
+        <div class="content__gallery">
+          <div v-for="(image, index) in images" :key="index" :class="'grid-photo item-' + (index + 1)"
+            @click="showEnlargedImage(image)">
+            <img class="grid_img" :src="image" alt="Grid Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="research" class="work_section ">
+    <div class="text-start card_wrap">
+      <sapn class="subtitle text-lightGreen font_syncopate">Research</sapn>
       <router-link :to="{ name: 'WorkPage' }" @click="scrollToTop">
         <div class="m-3 mb-5 row justify-content-center align-items-center work_wrap">
           <div class="col-md-3 col-sm-6 banner px-0">
@@ -125,26 +170,14 @@
       </router-link>
     </div>
   </section>
-  <section id="graphic" class="my_section graphic_section">
-    <div class="text-start card_wrap">
-      <sapn class="subtitle text-lightGreen font_syncopate">Graphic</sapn>
-      <div class="container aos-init aos-animate" data-aos="zoom-in">
-        <div class="content__gallery">
-          <div v-for="(image, index) in images" :key="index" :class="'grid-photo item-' + (index + 1)"
-            @click="showEnlargedImage(image)">
-            <img class="grid_img" :src="image" alt="Grid Image">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <div v-if="enlargedImage" class="enlarged-image-overlay" @click="closeEnlargedImage">
     <div class="enlarged-image-container">
       <img :src="enlargedImage" alt="Enlarged Image">
     </div>
   </div>
 </template>
-  
+
 <script>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -208,5 +241,4 @@ export default {
   height: 100%;
   object-fit: contain;
 }
-
 </style>
