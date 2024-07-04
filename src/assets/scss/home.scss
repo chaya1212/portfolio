@@ -183,14 +183,15 @@ section {
         grid-column-end: 4;
     }
 
-    .item-3 {
+    .item-3,.item-5 {
         grid-column-start: 1;
         grid-column-end: 3;
     }
 
-    .item-4 {
+    .item-4,.item-6  {
         grid-column-start: 3;
     }
+
 }
 
 .fade-enter-active,
@@ -287,16 +288,22 @@ $circle:$ellipse/50;
 
     .web_wrap{
         padding: 0 4rem;
+
+        @media (max-width: 575.98px) { 
+            flex-direction:column-reverse
+         }
     }
     .green_img{
         flex-direction: column;
+        
         .img{
             width: 100%;
             margin: auto;
+           
         }
 
         span{
-            padding: 1rem 0 2rem 0;
+            padding: 1rem 0 0 0;
         }
     }
 

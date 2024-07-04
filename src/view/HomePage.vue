@@ -78,27 +78,33 @@
     <div class="text-start card_wrap">
       <sapn class="subtitle text-lightGreen font_syncopate">DesignWork</sapn>
       <div class="row">
-      <div class="web_wrap col-6">
-        <a href="https://source-good-creator-studio-com-9866d448cab1bd109f7cf457ce4a2a58.gitlab.io/" target="_blank">
-          <div class="green_img d-flex">
-            <img class="img" src="@/assets/image/web/green_mockup.png">
-            <span>綠果方洲_官網建置</span>
-          </div>
+        <div class="web_wrap col-lg-6 col-md-12 col-sm-12  pt-3">
+          <a href="https://source-good-creator-studio-com-9866d448cab1bd109f7cf457ce4a2a58.gitlab.io/" target="_blank">
+            <div class="green_img d-flex">
+              <img class="img" src="@/assets/image/web/green_mockup.png">
+              <span>綠果方洲_官網建置</span>
+              <p>負責項目：畫面ＵＩ、切版</p>
+            </div>
 
-        </a>
-      </div>
-
-      <div class="web_wrap col-6">
-        <div class="green_img d-flex">
-          <img class="img" src="@/assets/image/web/green_mockup.png">
-          <span>綠果方洲_官網建置</span>
+          </a>
         </div>
 
+        <div class="web_wrap col-lg-6 col-md-12 col-sm-12  pt-3">
+          <a href="https://chaya1212.github.io/avatar/#/" target="_blank">
+            <div class="green_img d-flex">
+
+              <img class="img" src="@/assets/image/web/avatar_mockup.png">
+              <span>Avatar_角色生成器</span>
+              <p>負責項目：專案管理、畫面ＵＩ、切版</p>
+            </div>
+           
+
+          </a>
+        </div>
       </div>
     </div>
-    </div>
 
-    
+
   </section>
 
 
@@ -194,6 +200,8 @@ export default {
         require('@/assets/image/graphic/page-01.png'),
         require('@/assets/image/graphic/page-03.png'),
         require('@/assets/image/graphic/page-04.png'),
+        require('@/assets/image/graphic/page-05.png'),
+        require('@/assets/image/graphic/page-06.png'),
         // 添加更多圖片路徑
       ],
       enlargedImage: null
