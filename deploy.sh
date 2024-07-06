@@ -8,5 +8,5 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/chaya1212/portfolio master:gh-pages
+git push -f https://github.com/chaya1212/portfolio main:gh-pages
 cd -
