@@ -69,12 +69,12 @@ const skills = ref([
 
         <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
           <img
-            style="width: 75%"
-            src="../assets/images/my_face.png"
+            
+            src="../assets/images/chaya.png"
             alt="Image"
             class="img-fluid"
           />
-          <p class="pt-3 text-center w-75">
+          <p class="pt-3 w-75">
             <a
               href="https://www.cakeresume.com/s--vsuCLDgBa1FPXE37hrREAQ--/cha2024"
               class="readmore"
