@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue'; // 根据实际路径调整
 import Portfolio from '../components/PortfolioPage.vue'
 import PortfolioIntro from '../components/PortfolioIntro.vue';
@@ -34,7 +34,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('portfolio'),
   routes,
 });
 

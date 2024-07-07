@@ -11,10 +11,10 @@ const sendEmail = () => {
         <div class="row justify-content-between">
           <div class="col-md-2">
             <ul class="custom-menu">
-              <li class="active"><router-link to="/">Home</router-link></li>
-              <li><router-link to="/About">About Me</router-link></li>
-              <li><router-link to="/Services">Services</router-link></li>
-              <li><router-link to="/Portfolio">Portfolio</router-link></li>
+              <li class="active"><router-link :to="{ name: 'Home' }">Home</router-link></li>
+              <li><router-link :to="{ name: 'About'}">About Me</router-link></li>
+              <li><router-link :to="{ name: 'Services'}">Services</router-link></li>
+              <li><router-link :to="{ name: 'Portfolio'}">Portfolio</router-link></li>
             </ul>
           </div>
 
@@ -31,7 +31,7 @@ const sendEmail = () => {
 
     <div class="navbar navbar-light custom-navbar">
       <div class="container">
-        <router-link class="navbar-brand" to="/"> MyPortfolio</router-link>
+        <router-link class="navbar-brand" to="./"> MyPortfolio</router-link>
         <a
           href="#"
           class="burger"

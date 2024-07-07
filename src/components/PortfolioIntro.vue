@@ -56,7 +56,7 @@ const portfolioItems = [
         id: 1,
         category: 'Web',
         title: 'Avatar:頭像生成器',
-        imageUrl: '/static/images/web/avatar_mockup.png',
+        imageUrl: 'static/images/web/avatar_mockup.png',
         textDid01:'專案時程管理',
         textDid02:'UI設計',
         textDid03:'切版',
@@ -68,7 +68,7 @@ const portfolioItems = [
         id: 2,
         category: 'Web',
         title: '企業形象官網：綠果方洲',
-        imageUrl: '/static/images/web/green_mockup.png',
+        imageUrl: 'static/images/web/green_mockup.png',
         textDid01: 'UI設計',
         textDid02: '切版',
         textDid03: '前端功能',
@@ -82,7 +82,7 @@ const portfolioItems = [
         title: '官網動態形象影片',
         textDid01: '視覺設計',
         textDid02: '動態設計',
-        imageUrl: '/static/images/Motion/img-motion01.png',
+        imageUrl: 'static/images/Motion/img-motion01.png',
         link: 'https://lurl.cc/NoMzC',
         showLink: true, // 控制是否显示链接
         
@@ -93,7 +93,7 @@ const portfolioItems = [
         category: 'Design',
         title: 'DM設計：幼兒體適能',
         textDid01: '視覺設計',
-        imageUrl: '/static/images/Design/design_01.png',
+        imageUrl: 'static/images/Design/design_01.png',
         link: '',
         showLink: false, // 控制是否显示链接
     },
@@ -103,7 +103,7 @@ const portfolioItems = [
         title: '名片設計：小春日和',
         textDid01: '視覺設計',
         textDid02: '排版印刷',
-        imageUrl: '/static/images/Design/design_04.png',
+        imageUrl: 'static/images/Design/design_04.png',
         link: '/portfolio/5',
         showLink: false, // 控制是否显示链接
         
@@ -114,7 +114,7 @@ const portfolioItems = [
         title: '看板設計：錦春日式料理',
         textDid01: '視覺設計',
         textDid02: '排版印刷',
-        imageUrl: '/static/images/Design/design_03.png',
+        imageUrl: 'static/images/Design/design_03.png',
         link: '/portfolio/6',
         showLink: false, // 控制是否显示链接
     },
@@ -124,7 +124,7 @@ const portfolioItems = [
         title: '菜單型錄：小春日和',
         textDid01: '視覺設計',
         textDid02: '排版印刷',
-        imageUrl: '/static/images/Design/design_02.png',
+        imageUrl: 'static/images/Design/design_02.png',
         link: '/portfolio/7',
         showLink: false, // 控制是否显示链接
     },
@@ -135,7 +135,7 @@ const portfolioItems = [
         textDid01: '視覺設計',
         textDid02: 'Mockup示意圖',
         textDid03: '產品包裝設計',
-        imageUrl: '/static/images/Design/design_05.png',
+        imageUrl: 'static/images/Design/design_05.png',
         link: '/portfolio/7',
         showLink: false, // 控制是否显示链接
     },

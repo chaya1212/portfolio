@@ -33,7 +33,7 @@ const portfolioItems = ref([
         category: 'Web',
         title: 'Avatar:頭像生成器',
         description: '專案時程管理｜UI設計｜切版',
-        imageUrl: '/static/images/web/avatar_mockup.png',
+        imageUrl: 'static/images/web/avatar_mockup.png',
         link: '/portfolio/1',
     },
     {
@@ -41,7 +41,7 @@ const portfolioItems = ref([
         category: 'Web',
         title: '企業形象官網：綠果方洲',
         description: 'UI設計｜切版｜前端特效',
-        imageUrl: '/static/images/web/green_mockup.png',
+        imageUrl: 'static/images/web/green_mockup.png',
         link: '/portfolio/2',
     },
     {
@@ -49,7 +49,7 @@ const portfolioItems = ref([
         category: 'Motion',
         title: '官網動態形象影片',
         description: '',
-        imageUrl: '/static/images/Motion/img-motion01.png',
+        imageUrl: 'static/images/Motion/img-motion01.png',
         link: '/portfolio/3',
         
     },
@@ -58,7 +58,7 @@ const portfolioItems = ref([
         category: 'Design',
         title: 'DM設計：幼兒體適能',
         description: '',
-        imageUrl: '/static/images/Design/design_01.png',
+        imageUrl: 'static/images/Design/design_01.png',
         link: '/portfolio/4',
         
     },
@@ -67,7 +67,7 @@ const portfolioItems = ref([
         category: 'Design',
         title: '名片設計：小春日和',
         description: '',
-        imageUrl: '/static/images/Design/design_04.png',
+        imageUrl: 'static/images/Design/design_04.png',
         link: '/portfolio/5',
     },
     {
@@ -75,7 +75,7 @@ const portfolioItems = ref([
         category: 'Design',
         title: '看板設計：錦春日式料理',
         description: '',
-        imageUrl: '/static/images/Design/design_03.png',
+        imageUrl: 'static/images/Design/design_03.png',
         link: '/portfolio/6',
         
     },
@@ -84,7 +84,7 @@ const portfolioItems = ref([
         category: 'Design',
         title: '菜單型錄：小春日和',
         description: '',
-        imageUrl: '/static/images/Design/design_02.png',
+        imageUrl: 'static/images/Design/design_02.png',
         link: '/portfolio/7',
     },
     {
@@ -92,7 +92,7 @@ const portfolioItems = ref([
         category: 'Design',
         title: '品牌推廣：海報',
         description: '',
-        imageUrl: '/static/images/Design/design_05.png',
+        imageUrl: 'static/images/Design/design_05.png',
         link: '/portfolio/8',
     },
 

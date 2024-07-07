@@ -6,7 +6,7 @@ import Footer from "../components/footer.vue";
 
 const services = ref([
     {
-        icon: '/static/images/icon/icon-UIUX.png',
+        icon: 'static/images/icon/icon-UIUX.png',
         title: '網頁設計',
         description: '出色的網頁設計不僅僅關乎外觀，更深刻地理解和滿足使用者心理，提升易用性和互動性，以有效地展現和傳達品牌的核心價值和用戶體驗。',
         list: [
@@ -17,7 +17,7 @@ const services = ref([
         ]
     },
     {
-        icon: '/static/images/icon/icon-graphic.png',
+        icon: 'static/images/icon/icon-graphic.png',
         title: '視覺設計',
         description: '優秀的視覺設計不僅是美觀的外表，更是對品牌、產品或服務的有效表達和傳達價值的重要工具。',
         list: [
@@ -27,7 +27,7 @@ const services = ref([
         ]
     },
     {
-        icon: '/static/images/icon/icon-motion.png',
+        icon: 'static/images/icon/icon-motion.png',
         title: '動畫影片',
         description: '以生動的視覺敘事和流暢的動作，深入觀眾心靈，有效地傳達故事情感和品牌訊息。',
         list: [
@@ -36,7 +36,7 @@ const services = ref([
         ]
     },
     {
-        icon: '/static/images/icon/icon-photo.png',
+        icon: 'static/images/icon/icon-photo.png',
         title: '影像處理',
         description: '影像處理的精髓在於技術與內容的完美融合，以深度理解和精細處理影像，有效展現和傳達信息、情感或品牌形象。影',
         list: [

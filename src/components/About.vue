@@ -9,32 +9,32 @@ const skills = ref([
     name: "illustrator",
     percent: 80,
     visible: true,
-    icon: "/static/images/icon/icon-illustrator.png",
+    icon: "static/images/icon/icon-illustrator.png",
   },
   {
     name: "Photoshop",
     percent: 96,
     visible: true,
-    icon: "/static/images/icon/icon-photoshop.png",
+    icon: "static/images/icon/icon-photoshop.png",
   },
   {
     name: "HTML5/CSS3",
     percent: 99,
     visible: true,
-    icon: "/static/images/icon/icon-code.png",
+    icon: "static/images/icon/icon-code.png",
   },
-  { name: "Vue", percent: 87, visible: true, icon: "/static/images/icon/icon-vue.png" },
+  { name: "Vue", percent: 87, visible: true, icon: "static/images/icon/icon-vue.png" },
   {
     name: "Figma",
     percent: 85,
     visible: true,
-    icon: "/static/images/icon/icon-figma.png",
+    icon: "static/images/icon/icon-figma.png",
   },
   {
     name: "Sketch",
     percent: 88,
     visible: true,
-    icon: "/static/images/icon/icon-sketch.png",
+    icon: "static/images/icon/icon-sketch.png",
   },
 ]);
 </script>
