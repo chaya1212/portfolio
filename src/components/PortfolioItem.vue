@@ -9,6 +9,7 @@
             <img class="img-fluid" :src="item.imageUrl" />
         </router-link>
     </div>
+    
 </template>
 
 <script setup>

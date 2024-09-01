@@ -511,3 +511,23 @@ h6,
 .site-portfolio {
   min-height: 100vh;
 }
+
+//bottom_section
+.bottom_section {
+  .img_show:hover {
+    img {
+      transform: scale(1.01);
+      overflow: hidden;
+    }
+  }
+}
+
+.modal {
+  .modal-content {
+    padding: 0;
+
+    .close {
+      color: white;
+    }
+  }
+}
